@@ -5,13 +5,8 @@ const createHtml = (park) => {
     let parkClass = ""
         if (park.visited) {
             parkClass = "visited"
-            
-            // put visited in variable
-            // articleClass.classList.add("visited")
         } else {
             parkClass = "unvisited"
-            // debugger
-            // articleClass.classList.add("unvisited")
         }
     return `
      <article class="${parkClass}">
