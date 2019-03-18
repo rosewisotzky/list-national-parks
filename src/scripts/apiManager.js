@@ -1,7 +1,4 @@
-console.log("Still a cooooooool babe")
-
-
-    fetch("http://localhost:9099/parks")
+fetch("http://localhost:9099/parks")
     .then(response => response.json())
     .then(parsedResponse => {
         parsedResponse.forEach(park => {
